@@ -1,0 +1,14 @@
+; uBlock Origin Uninstallation via Registry
+; Author: skimask1690
+; This registry file removes uBlock Origin from Chrome by deleting the related registry entries.
+
+Windows Registry Editor Version 5.00
+
+; Remove uBlock Origin from the 32-bit registry key
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\Extensions\cjpalhdlnbpafiamejdnhcphjbkeiagm]
+
+; Remove uBlock Origin from the 64-bit registry key
+[-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Google\Chrome\Extensions\cjpalhdlnbpafiamejdnhcphjbkeiagm]
+
+; Remove the enterprise policy that forces uBlock Origin installation
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallForcelist]
