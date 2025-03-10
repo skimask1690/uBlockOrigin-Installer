@@ -1,7 +1,3 @@
-; uBlock Origin Installation for Chrome
-; Author: skimask1690
-; This registry entry adds uBlock Origin to Chrome extensions for 32-bit Windows
-
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\Extensions\cjpalhdlnbpafiamejdnhcphjbkeiagm]
