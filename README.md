@@ -30,6 +30,10 @@ This method will automatically download and update uBlock Origin directly from t
 
 This registry method installs uBlock Origin from the Chrome Web Store and ensures it stays updated. There's no need to enable developer mode or manually load the extension, as the files are automatically pulled from the store.
 
+## ⚠️ Warning
+ 
+ **The uninstaller (`uBlockUninstall.reg`) will remove all forced enterprise extensions** managed through the `ExtensionInstallForcelist` registry policy. If other extensions are installed via this method, they will also be uninstalled.
+ 
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
