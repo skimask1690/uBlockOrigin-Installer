@@ -17,7 +17,6 @@ This method will automatically download and update uBlock Origin directly from t
    - Use **uBlock32.reg** if you're on a 32-bit version of Windows.
    - Use **uBlock64.reg** if you're on a 64-bit version of Windows.
    - Use **uBlockPolicy.reg** to force the installation via enterprise policy settings.
-   - Use **uBlockUninstall.reg** to uninstall uBlock Origin.
 
 2. **Applying the Registry File**  
    - Simply double-click the chosen `.reg` file.
