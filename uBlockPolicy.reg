@@ -1,4 +1,8 @@
 Windows Registry Editor Version 5.00
 
+; uBlock Origin Forced Installation for Chrome
+; Author: skimask1690
+; This registry entry forces the installation of uBlock Origin in Chrome via an enterprise policy
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallForcelist]
 "1"="cjpalhdlnbpafiamejdnhcphjbkeiagm;https://clients2.google.com/service/update2/crx"
