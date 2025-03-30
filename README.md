@@ -2,7 +2,7 @@
 
 This repository provides registry files to install and uninstall [uBlock Origin](https://github.com/gorhill/uBlock) for Chrome via the Windows Registry, removing the need to enable developer mode or manually load extension files.
 
-This method will automatically download and update uBlock Origin directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), bypassing Google's [recent restrictions](https://nordvpn.com/blog/manifest-v3-ad-blockers) on normal installation.
+This method will automatically download and update uBlock Origin directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), bypassing Google's [recent restrictions](https://nordvpn.com/blog/manifest-v3-ad-blockers/) on normal installation.
 
 ## 📁 Files Included
 
